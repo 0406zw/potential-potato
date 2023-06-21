@@ -1,0 +1,28 @@
+<form bindsubmit="chakanweizhi">
+<view>
+经度
+<input type='text' name="jingdu" value='{{jingdu}}'></input>
+</view>
+
+<view>
+纬度
+<input type='text' name="weidu" value='{{weidu}}'></input>
+</view>
+
+<view>
+地址
+<input type='text' name="dizhi" value='{{dizhi}}'></input>
+</view>
+
+<view>
+名称
+<input type='text' name="mingcheng" value='{{mingcheng}}'></input>
+</view>
+
+<view>
+<button  bindtap='huodeweizhi'>获取经纬度</button>
+<button  form-type='submit'>查看地图位置</button>
+<button  bindtap='xuanzeweizhi'>选择位置</button>
+</view>
+
+</form>

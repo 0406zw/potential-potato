@@ -1,0 +1,47 @@
+/* pages/chuanyi/chuanyi.wxss */
+/* start.wxss */
+
+.btn1 {
+  width: 60%;
+  top: 10%;
+}
+
+.radio-group {
+  left: 30%;
+  top: 30%;
+  position: absolute;
+}
+
+#input {
+  background-color:rgb(154,152,189);
+  width: 60%;
+  height: 88rpx;
+  top: 45%;
+  left: 18%;
+  position: absolute;
+}
+
+#text {
+  color:rgb(122,156,189);
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  top: 55%;
+  left: 17%;
+  position: absolute;
+}
+
+#btn3 {
+  position: absolute;
+  height: 88rpx;
+  top: 60%;
+  left: 19%;
+  width: 60%;
+  color: white;
+  background-color:rgb(247, 56, 56);
+}
+page{
+background:url(https://tse1-mm.cn.bing.net/th/id/OIP-C.qyjgaAXOf50H8xq5VYmFWwHaHZ?w=196&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7)
+}
+.ps{
+  color:rgb(137, 137, 148) 
+}

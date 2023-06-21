@@ -1,0 +1,16 @@
+button{
+  margin-top: 100px;
+  width: 80%;
+  background-color: blanchedalmond;
+  color: white;
+  border-radius: 0rpx;
+  background: rgb(96, 196, 254);
+ 
+}
+image{
+  margin-left: 28px;
+  
+}
+page{
+  background: url(https://tse4-mm.cn.bing.net/th/id/OIP-C.0dvj0ZPEouwmivfQZZjJ1QHaHa?w=167&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+}

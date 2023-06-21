@@ -1,0 +1,74 @@
+/**index.wxss**/
+.page {
+  margin: 0rpx 50rpx 50rpx 50rpx;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  font-size:55rpx;
+}
+
+.nav1 {
+  flex: 1;
+  background-color: rgba(229, 248, 228, 0.281);
+}
+
+.nav2 {
+  flex: 1;
+  background-color: rgba(120, 180, 123, 0.774);
+}
+
+.body {
+  background-color: rgb(252, 176, 186);
+
+  
+}
+
+.guide {
+  font-size: 50rpx;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  border: 100px;
+}
+
+.list1 {
+  font-size: 50rpx;
+  border: 1rpx;
+  border-color: black;
+  border-style: solid;
+}
+
+.btn {
+  margin: 20px;
+  width: 80%;
+  background-color: blanchedalmond;
+  color: rgb(175, 174, 182);
+  border-radius: 200rpx;
+  background: white;
+}
+
+.area {
+  background-color: rgb(240, 150, 150);
+  font-size: 50rpx;
+  border:50px,solid,snow;
+  text-indent:20px;
+  text-align:left;
+}
+
+.list2 {
+  font-size: 50rpx;
+  border: 1rpx;
+  border-color: rgb(111, 224, 126);
+  border-style: solid;
+  background-color: pink;
+}
+
+
+.ps{
+  color: rgb(29, 97, 35)
+}
+page{
+  background: url(https://pic2.zhimg.com/50/v2-222b3f64389bde575a8af38425c4fca7_hd.jpg?source=1940ef5c);
+}

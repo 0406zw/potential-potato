@@ -1,0 +1,11 @@
+<!-- start.wxml -->
+<radio-group class="radio-group" bindchange="radioChange">
+  <label style="display: flex" wx:for="{{items}}" wx:key="{{item.name}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}" />
+    {{item.value}}
+  </label>
+</radio-group>
+<input id="input" placeholder="穿衣想要多少度" placeholder-style="font-size:15px; color:#bfbfbf;" style="font-weight:bolder; font-size:15px; color:#000000; padding-left: 30rpx" bindinput="change" />
+<text id="text">提示：当目前温度异常时报警。单位：摄氏度</text>
+<button id="btn3" style="opacity: {{opacity}}" disabled="{{disabled}}" bindtap="send">感觉是否合适</button>
+<text class="ps">介绍：在输入框内输入可忍受的最高或最低气温，小程序会自动推荐穿衣</text>

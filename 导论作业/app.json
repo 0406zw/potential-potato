@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/control/gongneng/index",
+    "pages/location/location",
+    "pages/note/note",
+    "pages/tianqi/tianqi",
+    "pages/chuanyi/chuanyi"  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "宿舍小助手",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/control/gongneng/index",
+        "iconPath": "images/2/OIP-A.jpg",
+        "selectedIconPath": "images/2/OIP-A.jpg",
+        "text": "篮球挑战"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "iconPath": "images/2/a.jpg",
+        "selectedIconPath": "images/2/a.jpg",
+        "text": "备忘录"
+      },{
+        "pagePath": "pages/chuanyi/chuanyi",
+        "iconPath": "images/2/a.jpg",
+        "selectedIconPath": "images/2/a.jpg",
+        "text": "穿衣"
+      },{
+        "pagePath": "pages/location/location",
+        "iconPath": "images/2/a.jpg",
+        "selectedIconPath": "images/2/a.jpg",
+        "text": "舍友位置"
+      },{
+        "pagePath": "pages/tianqi/tianqi",
+        "iconPath": "images/2/a.jpg",
+        "selectedIconPath": "images/2/a.jpg",
+        "text": "环境情况"
+      }
+      
+      
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  }
+}

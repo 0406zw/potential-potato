@@ -1,0 +1,20 @@
+/* pages/home/home.wxss */
+page{
+  padding:10px;
+  box-sizing:border-box;
+  
+
+    }
+input{
+  border:3px solid rgb(125,168,157);
+  border-radius:50rpx;
+}
+button{
+  margin-top: 20px;
+  width: 80%;
+  background-color: blanchedalmond;
+  color: white;
+  border-radius: 98rpx;
+  background: rgb(252, 126, 67);
+ 
+}
